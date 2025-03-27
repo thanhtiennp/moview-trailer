@@ -1,7 +1,7 @@
-import IconRatingHalf from "../assets/rating-half.png";
-import IconRating from "../assets/rating.png";
-import ImgMovie from "../assets/temp-1.jpeg";
-import IconPlay from "../assets/play-button.png";
+import IconRatingHalf from "../../assets/rating-half.png";
+import IconRating from "../../assets/rating.png";
+import ImgMovie from "../../assets/temp-1.jpeg";
+import IconPlay from "../../assets/play-button.png";
 
 const Banner = () => {
   return (
@@ -24,23 +24,23 @@ const Banner = () => {
                 <img src={IconRating} alt="rating" className="w-8 h-8" />
                 <img src={IconRatingHalf} alt="rating" className="w-8 h-8" />
               </div>
-              <p className="text-white">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book. It has survived
-                not only five centuries, but also the leap into electronic
-                typesetting,
-              </p>
+              {/* <p className="text-white">
+                Lorem Ipsum đơn giản là văn bản giả trong ngành in ấn và sắp chữ. 
+                Lorem Ipsum đã là văn bản giả tiêu chuẩn từ những năm 1500, khi một thợ in vô danh xáo trộn các con chữ để tạo thành một cuốn sách mẫu. 
+                Nó không chỉ tồn tại qua năm thế kỷ mà còn thích nghi với sự phát triển của sắp chữ điện tử.
+              </p> */}
             </div>
 
             <div className="flex items-center space-x-5">
-              <button className="py-2 px-3 bg-black  text-white border border-black font-bold">
+              <p className="text-white">
+                Nhưng tôi không thích em
+              </p>
+              {/* <button className="py-2 px-3 bg-black  text-white border border-black font-bold">
                 Chi tiết
               </button>
               <button className="py-2 px-3 bg-red-600 text-white font-bold">
                 Xem Phim
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

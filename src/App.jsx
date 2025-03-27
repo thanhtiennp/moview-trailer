@@ -1,9 +1,9 @@
 import { useEffect } from "react";
-import Banner from "./components/Banner";
-import Header from "./components/Header";
-import MovieList from "./components/MovieList";
+import Banner from "./components/Banner/Banner";
+import Header from "./components/Header/Header";
+import MovieList from "./components/MovieList/MovieList";
 import { useState } from "react";
-import MovieSearch from "./components/MovieSearch";
+import MovieSearch from "./components/MovieSearch/MovieSearch";
 import { MovieProvider } from "./context/MovieDetailContext";
 
 function App() {

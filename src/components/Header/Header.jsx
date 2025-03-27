@@ -7,16 +7,16 @@ const Header = ({ onSearch }) => {
   return (
     <div className="p-4 flex justify-between  fixed top-0 left-0 w-full z-[9999]  bg-black">
       <div className="flex items-center gap-8">
-        <h1 className="text-[30px] uppercase text-red-700 font-bold">Movie</h1>
+        <h1 className="text-[30px] uppercase text-red-700 font-bold">Movie-Trailer, thích gì xem đó</h1>
         <nav className="hidden md:flex items-center space-x-5">
           <a href="#" className="hover:text-red-700">
-            Home
+            Trang chủ
           </a>
           <a href="#" className="hover:text-red-700">
-            About
+            Thông Tin
           </a>
           <a href="#" className="hover:text-red-700">
-            Contact
+            Liên hệ
           </a>
         </nav>
       </div>
@@ -32,7 +32,7 @@ const Header = ({ onSearch }) => {
           className="bg-red-700 text-white px-3 py-1 rounded-lg"
           onClick={() => onSearch(search)}
         >
-          Search
+          Tìm kiếm
         </button>
       </div>
     </div>
